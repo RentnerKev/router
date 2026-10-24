@@ -1,5 +1,13 @@
 # @tanstack/router-generator
 
+## 1.168.0
+
+### Minor Changes
+
+- [`8921f32`](https://github.com/TanStack/router/commit/8921f3204c8c2729dcb652e2caafd98d27e0ee1a) - Add a native Bun plugin with file-based route generation and automatic code splitting, including shared route modules. Reuse Router HMR and expose resolved generator watch dependencies for native development-server watches.
+
+  Reload edited virtual route configurations and their TypeScript imports when regenerating the route tree.
+
 ## 1.167.46
 
 ### Patch Changes
